@@ -10,7 +10,8 @@ export default function CurrentWeather({ data }) {
         <div>
           <h2 className="text-xl font-semibold">{name}</h2>
           <p className="text-gray-700">
-            {Math.round(main.temp)}°C · Feels {Math.round(main.feels_like)}°C · Hum {main.humidity}% · Wind {Math.round(wind.speed)} m/s
+            {Math.round(main.temp)}°C · Feels {Math.round(main.feels_like)}°C ·
+            {' '}Hum {main.humidity}% · Wind {Math.round(wind.speed)} m/s
           </p>
         </div>
       </div>
