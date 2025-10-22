@@ -13,7 +13,9 @@ export default function SearchBar({ onSearch }) {
         value={city}
         onChange={(e)=>setCity(e.target.value)}
       />
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">Search</button>
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        Search
+      </button>
     </form>
   )
 }
