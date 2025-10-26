@@ -1,9 +1,5 @@
 # Weather Dashboard
 
-React + Vite + Tailwind (via @tailwindcss/vite).
-
-# Weather Dashboard 🌦️
-
 A responsive weather dashboard built with **React + Vite + Tailwind CSS** and the **OpenWeatherMap API**.
 
 ## Features
